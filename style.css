@@ -11,7 +11,7 @@ h1 {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 10%;
 }
@@ -44,4 +44,38 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experience-item {
+  box-shadow: 10px 10px 40px grey;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  border-radius: 10px;
+
+
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.Experiences-area {
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+}
+
+#web-dev {
+  border-left: 7px cyan;
+
+}
+
+#final-dev {
+  border-left: 7px rgb(230, 11, 200);
+  border-image: linear-gradient(rgb(211, 126, 15) rgb(162, 0, 255));
+  border-image: 2;
+}
+
+pooter p {
+  text-align: center;
 }
