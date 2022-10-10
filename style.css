@@ -71,9 +71,10 @@ h1 {
 }
 
 #final-dev {
-  border-left: 7px rgb(230, 11, 200);
-  border-image: linear-gradient(rgb(211, 126, 15) rgb(162, 0, 255));
-  border-image: 2;
+  border-left: dotted rgb(230, 11, 200);
+  /* border: ; */
+  /* border-image: linear-gradient(rgb(211, 126, 15) rgb(162, 0, 255)); */
+  /* border-image: url('images/exp-bg.png') 25 25 round; */
 }
 
 pooter p {
